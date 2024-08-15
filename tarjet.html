@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tarjet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="tarjet">
+        <h1>SALUDO PERSONALIZADO</h1>
+        <form id="saludo" >
+            <label for="nombreusuario">INGRESA TU NOMBRE: </label>
+            <input type="text"  placeholder="INGRESA TU NOMBRE" id="nombreusuario" name="nombre"required>
+            <br>
+            <label for="apellidousuario">INGRESA TU APELLIDO: </label>
+            <input type="text"  placeholder="INGRESA TU NOMBRE" id=" apellidousuario" name="apellido"required>
+            <br>
+            <label for="cedula">INGRESA TU CEDULA: </label>
+            <input type="text"  placeholder="INGRESA TU NOMBRE" id="cedula" name="cedula">
+            <br>
+
+            <button type="submit" id="button" onsubmit= "mostrarmensaje()" >ENVIAR FORMULARIO</button>
+        </form>
+    </div>
+    <script src="./tarjet.js"></script>
+</body>
+</html>

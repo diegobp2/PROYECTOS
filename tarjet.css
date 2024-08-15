@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+label, input, button{
+    margin: 10px 0px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    /* border: 3px solid blue; */
+    margin: 25px 0px 15px 10px
+
+    
+    /* border-color: red; */
+    /* border-style: dashed; */
+}
+h1{
+    /* padding-bottom: 20px; */
+    margin-top: 10px;
+}
+.tarjet{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* margin-top: 10px; */
+    padding-top: 50px;
+    
+}
+#button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+#button:hover{
+ transition: 300ms;
+ background-color: black;
+}
